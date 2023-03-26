@@ -1,0 +1,25 @@
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1158px;
+  }
+  .hw-strategy {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .hw-strategy-list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 24px;
+  }
+  .hw-team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .hw-team-item {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 24px;
+  }
+}

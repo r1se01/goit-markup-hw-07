@@ -1,0 +1,19 @@
+@media screen and (min-width: 767px) {
+  .container {
+    max-width: 798px;
+  }
+  .hw-strategy {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+
+  .hw-team {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+}
+@media screen and (min-width: 768px), (max-width: 1199px) {
+  .container-sm {
+    max-width: 264px;
+  }
+}
