@@ -10,4 +10,41 @@
     padding-top: 96px;
     padding-bottom: 96px;
   }
+  .customers {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+  .customers-link {
+  }
+  .hw-team-list {
+    width: calc((100% - 24px) / 2);
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .customers-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 120px;
+    column-gap: 24px;
+  }
+  .customers-item {
+    width: calc((100% - 120px) / 2);
+    gap: 16px;
+  }
+  .hw-footer {
+    flex-direction: column;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .social-media {
+    flex-direction: column;
+  }
+  .footer-form {
+    flex-direction: column;
+  }
+  .container-media {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }

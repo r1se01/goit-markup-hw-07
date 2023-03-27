@@ -171,6 +171,19 @@ body {
   background-position: center;
   background-size: cover;
 }
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hw-hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-bg-des-2x.jpg);
+  }
+}
+
 .hw-hero-title {
   margin-bottom: 48px;
   margin: 0;
@@ -287,6 +300,7 @@ body {
   padding-bottom: 32px;
   background-color: var(--white);
   text-align: center;
+  width: 264px;
 }
 .hw-team-title {
   margin: 0;
@@ -377,7 +391,6 @@ body {
 .customers-item {
   justify-content: center;
   text-align: center;
-  margin: 0;
   padding: 0;
   height: 88px;
   border: 1px solid var(--lightslate);
@@ -395,10 +408,6 @@ body {
   border-color: var(--ocean);
 }
 .customers-link {
-  margin: auto;
-  margin-left: auto;
-  margin-right: auto;
-  margin: 0;
   padding: 0;
   width: 168px;
   height: 88px;
@@ -429,49 +438,7 @@ body {
 .logo-footer {
   color: var(--cloud);
 }
-.social-media {
-  margin: 0;
-  padding: 0;
-  margin-left: auto;
-}
-.social-media-title {
-  font-family: 'Roboto';
-  font-weight: 500;
-  margin: 0;
-  padding: 0;
-  color: var(--white);
-}
-.social-media-list {
-  margin: 0;
-  margin-top: 16px;
-  padding: 0;
-  display: flex;
-  gap: 16px;
-}
-.hw-footer .container {
-  display: flex;
-}
-.social-media-item:hover,
-.social-media-item:focus {
-  background-color: var(--green);
-  transition: 0.35s linear;
-}
 
-.social-media-item {
-  background: var(--white);
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-}
-.social-media-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  transition: 0.2s linear;
-}
 .social-media-icon {
   fill: var(--cloud);
 }

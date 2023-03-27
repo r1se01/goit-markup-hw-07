@@ -1,6 +1,6 @@
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   .container {
-    max-width: 798px;
+    max-width: 768px;
   }
   .hw-strategy {
     padding-top: 96px;
@@ -11,9 +11,46 @@
     padding-top: 96px;
     padding-bottom: 96px;
   }
+  .customers {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hw-hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-bg-tab-2x.jpg);
+    }
+  }
+  .hw-team-background {
+    width: 264px;
+  }
+  .hw-team-item {
+    row-gap: 72px;
+    column-gap: 24px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .hw-team-list {
+    width: calc((100% - 24px) / 2);
+  }
+  .customers-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 120px;
+    column-gap: 24px;
+  }
+  .customers-item {
+    width: calc((100% - 120px) / 3);
+  }
+  .hw-footer {
+    flex-direction: column;
+  }
 }
 @media screen and (min-width: 768px), (max-width: 1199px) {
-  .container-sm {
-    max-width: 264px;
-  }
 }
