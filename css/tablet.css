@@ -70,7 +70,6 @@
   .container {
     flex-direction: row;
     flex-wrap: wrap;
-    width: 565px;
   }
   .hw-header {
     flex-direction: row;
