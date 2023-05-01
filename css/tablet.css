@@ -29,6 +29,7 @@
   .hw-team-background {
     width: 264px;
   }
+
   .hw-team-item {
     row-gap: 72px;
     column-gap: 24px;
@@ -74,5 +75,8 @@
   .hw-header {
     flex-direction: row;
     display: flex;
+  }
+  .hw-do {
+    display: none;
   }
 }

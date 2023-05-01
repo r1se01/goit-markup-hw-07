@@ -76,4 +76,10 @@
   .footer-form-title {
     margin-top: 80px;
   }
+  .strategy {
+    display: none;
+  }
+  .hw-do {
+    display: none;
+  }
 }

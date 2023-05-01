@@ -168,6 +168,17 @@ body {
   background-position: center;
   background-size: cover;
 }
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .box {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-bg-mob-2x.jpg);
+  }
+}
 
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
@@ -213,6 +224,7 @@ body {
 .strategy {
   margin: 0;
   padding: 0;
+  display: block;
   width: 264px;
   height: 112px;
   background-color: var(--cloud);
@@ -568,6 +580,7 @@ body {
 
 .form-label {
   position: relative;
+  margin-bottom: 4px;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -648,7 +661,9 @@ body {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
+  color: var(--lightslate);
 }
+
 .form-privacy {
   color: var(--iris);
   margin-left: 4px;
